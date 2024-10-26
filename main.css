@@ -7,25 +7,35 @@
     text-decoration: none;
     text-align: center;
     background-color: rgb(50, 49, 49);
+    color: #D3D3D3;
+    font-family: "Source Sans 3", sans-serif;
+}
+*::selection{
+    user-select: none;
 }
 .container{
-    max-width: 90%;
-    margin: 10px;
+    max-width: 1370px;
+    text-align: center;
+    margin: 0 auto;
 }
 .nav-logo{
     height: 100px;
     position: relative;
-    right: 600px;
-    cursor: pointer;
+    right: 400px;
+    top: 10px;
 }
 .nav-section a{
     display: inline;
     margin: 0px 20px;
-    font-family: "PT Sans Narrow", serif;;
+    font-family: "Source Sans 3", sans-serif;
     letter-spacing: 1px;
     font-weight: 900;
-    color: rgb(252, 239, 216);
+    color: #D3D3D3;
     font: optional;
+    font-size: 19px;
+}
+main{
+    margin-top: 75px;
 }
 .nav-section{
     position: relative;
@@ -33,6 +43,45 @@
     background-color: #11111100;
 }
 .nav-section a:hover{
-    color: yellowgreen;
+    color: #E5383B;
+    transition: 0.7s;
+    text-shadow: #E5383B 1px 0px 30px;
+}
+.about-me-header{
+    text-align: start;
+    margin-left: 250px;
+    font-size: 35px;
+    color: #F5F3F4;
+}
+.about-me-info{
+    color: #EFF2EE;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 250px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+.header-img{
+    float: right;
+    border-radius: 20%;
+    margin: 10px;
+    text-align: center;
+}
+.btn{
+    color: #343F41;
+    background-color: #D3D3D3;
+    padding: 10px 20px;
+    position: relative;
+    top: 50px;
+    right: 210px;
+    border: 1px solid #D3D3D3;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #a7a6a6;
     transition: 1s;
+    border-color: #a7a6a6;
+    color: #D3D3D3;
+    box-shadow: 1px 0px 30px #a7a6a6;
 }
